@@ -1,5 +1,5 @@
 # Deep MRS Quantification
-This repository provides the implementation of DeepFPC from the following paper:
+This repository provides the implementation of DeepMRS from the following paper:
 
 Model-Constrained Deep Learning Approach to the Quantification of Magnetic Resonance Spectroscopy Data Based on Linear Combination Model Fitting: [Link to biorxiv](https://www.biorxiv.org/content/10.1101/2022.10.13.512064v1)
 
@@ -11,7 +11,7 @@ There are examples of "run" json files that can be found in the "runs" folder.
 - Engine.py controls the pre and post-training steps for training and testing. dotrain() and dotest() are two functions for training and testing modes, respectively.
 - Model.py is an object inherited from PyTorch lightning's "LightningModule". Now it contains four neural networks (ConvNet, MLPNet, mlp-Mixer, and ConvNext), but you can easily add your model.  Model-decoder are implemented in Model.py (forward function). 
 ------
-## Proposed Deep Autoencoder for Deep Learning-based Peak Referencing
+## Proposed Model-informed Deep Autoencoder 
 |![img_1.png](images/img_1.png)|
 |:--:|
 |Illustration of the proposed convolutional encoder–model decoder network. The input of the network is a complex signal \left(x\right) in the time domain, which is fed to the encoder. The encoder consisted of eight convolutional blocks and an FC layer. |
@@ -24,7 +24,7 @@ There are examples of "run" json files that can be found in the "runs" folder.
 ### GABA-edited in-vivo dataset([Big GABA](https://www.nitrc.org/projects/biggaba/))
 |![img.png](images/img_3.png)|
 |:--:|
-| Four example spectra (a,b,c, and d) from the test subset of the Big GABAin vivo  dataset quantified by DQ-rpMM. |
+| Four example spectra (a,b,c, and d) from the test subset of the Big GABA in vivo dataset quantified by DQ-rpMM. |
 -----
 ## Acknowledgments
 This project has received funding from the European Union's Horizon 2020 research and innovation program under the Marie Sklodowska-Curie grant agreement No 813120.
