@@ -32,12 +32,12 @@ This project has received funding from the European Union's Horizon 2020 researc
 ## Citation
 If you use this codebase, or otherwise found our work valuable, please cite:
 ```
-@article {Shamaei2022.06.28.497332,
-	author = {Shamaei, Amir M and Starcukova, Jana and Pavlova, Iveta and Starcuk, Zenon},
-	title = {Model-Informed Unsupervised Deep Learning Approaches to Frequency and Phase Correction of MRS Signals},
-	elocation-id = {2022.06.28.497332},
+@article {Shamaei2022.10.13.512064,
+	author = {Shamaei, Amir M and Starcukova, Jana and Starcuk, Zenon},
+	title = {Model-Constrained Self-supervised Deep Learning Approach to the Quantification of Magnetic Resonance Spectroscopy Data Based on Linear-combination Model Fitting},
+	elocation-id = {2022.10.13.512064},
 	year = {2022},
-	doi = {10.1101/2022.06.28.497332},
+	doi = {10.1101/2022.10.13.512064},
 	publisher = {Cold Spring Harbor Laboratory}
   }
 
