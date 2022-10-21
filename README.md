@@ -32,8 +32,13 @@ This project has received funding from the European Union's Horizon 2020 researc
 ## Citation
 If you use this codebase, or otherwise found our work valuable, please cite:
 ```
-@article {
-
-}
+@article {Shamaei2022.06.28.497332,
+	author = {Shamaei, Amir M and Starcukova, Jana and Pavlova, Iveta and Starcuk, Zenon},
+	title = {Model-Informed Unsupervised Deep Learning Approaches to Frequency and Phase Correction of MRS Signals},
+	elocation-id = {2022.06.28.497332},
+	year = {2022},
+	doi = {10.1101/2022.06.28.497332},
+	publisher = {Cold Spring Harbor Laboratory}
+  }
 
 ```
