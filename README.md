@@ -1,7 +1,7 @@
 # Deep MRS Quantification
 This repository provides the implementation of DeepMRS from the following paper:
 
-Model-Constrained Deep Learning Approach to the Quantification of Magnetic Resonance Spectroscopy Data Based on Linear Combination Model Fitting: [Link to biorxiv](https://www.biorxiv.org/content/10.1101/2022.10.13.512064v1)
+Model-Constrained Deep Learning Approach to the Quantification of Magnetic Resonance Spectroscopy Data Based on Linear Combination Model Fitting: [Link to the paper](https://www.sciencedirect.com/science/article/pii/S0010482523003025)
 
 ## How does it work?
 - DeepMRS was implemented in Python with the help of the Pytorch lightning interface. 
@@ -32,13 +32,25 @@ This project has received funding from the European Union's Horizon 2020 researc
 ## Citation
 If you use this codebase, or otherwise found our work valuable, please cite:
 ```
-@article {Shamaei2022.10.13.512064,
-	author = {Shamaei, Amir M and Starcukova, Jana and Starcuk, Zenon},
-	title = {Model-Constrained Self-supervised Deep Learning Approach to the Quantification of Magnetic Resonance Spectroscopy Data Based on Linear-combination Model Fitting},
-	elocation-id = {2022.10.13.512064},
-	year = {2022},
-	doi = {10.1101/2022.10.13.512064},
-	publisher = {Cold Spring Harbor Laboratory}
-  }
+@article{SHAMAEI2023106837,
+title = {Physics-informed deep learning approach to quantification of human brain metabolites from magnetic resonance spectroscopy data},
+journal = {Computers in Biology and Medicine},
+volume = {158},
+pages = {106837},
+year = {2023},
+issn = {0010-4825},
+doi = {https://doi.org/10.1016/j.compbiomed.2023.106837},
+url = {https://www.sciencedirect.com/science/article/pii/S0010482523003025},
+author = {Amirmohammad Shamaei and Jana Starcukova and Zenon Starcuk},
+keywords = {MR spectroscopy, Inverse problem, Deep learning, Machine learning, Convolutional neural network, Metabolite quantification},
+abstract = {Purpose
+While the recommended analysis method for magnetic resonance spectroscopy data is linear combination model (LCM) fitting, the supervised deep learning (DL) approach for quantification of MR spectroscopy (MRS) and MR spectroscopic imaging (MRSI) data recently showed encouraging results; however, supervised learning requires ground truth fitted spectra, which is not practical. Moreover, this work investigates the feasibility and efficiency of the LCM-based self-supervised DL method for the analysis of MRS data.
+Method
+We present a novel DL-based method for the quantification of relative metabolite concentrations, using quantum-mechanics simulated metabolite responses and neural networks. We trained, validated, and evaluated the proposed networks with simulated and publicly accessible in-vivo human brain MRS data and compared the performance with traditional methods. A novel adaptive macromolecule fitting algorithm is included. We investigated the performance of the proposed methods in a Monte Carlo (MC) study.
+Result
+The validation using low-SNR simulated data demonstrated that the proposed methods could perform quantification comparably to other methods. The applicability of the proposed method for the quantification of in-vivo MRS data was demonstrated. Our proposed networks have the potential to reduce computation time significantly.
+Conclusion
+The proposed model-constrained deep neural networks trained in a self-supervised manner can offer fast and efficient quantification of MRS and MRSI data. Our proposed method has the potential to facilitate clinical practice by enabling faster processing of large datasets such as high-resolution MRSI datasets, which may have thousands of spectra.}
+}
 
 ```
